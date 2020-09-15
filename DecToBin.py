@@ -3,7 +3,6 @@ dec = int(dec)
 pvs = []
 while dec!=0:
     pv = dec%2
-
     if pv==1:
         pvs.append('1')
         dec=dec-1
@@ -14,6 +13,3 @@ while dec!=0:
 pvs.reverse()
 bin="".join(pvs)
 print(bin)
-
-
-
